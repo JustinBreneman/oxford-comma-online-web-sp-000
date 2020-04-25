@@ -1,3 +1,5 @@
 def oxford_comma(array)
-  array.split", "<<"and"
+  if array.length == 1
+    array.split
+  end
 end
